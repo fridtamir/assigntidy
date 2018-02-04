@@ -4,7 +4,7 @@
 2. CodeBock.md
 3. README.md
 
-##Script
+## Script
 This script will download a zip file, unzip it and create a tidy dataset out of numerous files. 
 
 tidy dataset will be creating using reshape2 package.
