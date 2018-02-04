@@ -75,4 +75,4 @@ tidy_data <- dcast(meltdataset, subjects + activity ~ variable, mean)
 names(tidy_data)[-c(1:2)] <- paste("[mean of]" , names(tidy_data)[-c(1:2)] )
 
 # writing a data set 
-write.table(tidy_data, "tidy_data.txt", sep=",")
+write.table(tidy_data, "tidy_data.txt", sep=",", row.names = FALSE)
